@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  text-align: center;
+  padding: 20px 0;
+}
+.addGroup {
+  background-color: royalblue;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+.addGroup h3 {
+  color: #fff;
+  margin-right: 20px;
+}
+input {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 20px;
+}
+
+button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.addProduct .form {
+  background-color: royalblue;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.addProduct .form label {
+  margin-right: 10px;
+}
+.addProduct .form > div:last-child {
+  margin-left: 10px;
+}
+.addProduct .form select {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-right: 20px;
+  color: #6c6c6c;
+}
+li {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: royalblue;
+  color: #fff;
+  padding: 10px 0;
+}
